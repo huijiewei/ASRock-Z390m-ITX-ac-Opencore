@@ -361,11 +361,11 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -426,7 +426,7 @@
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFudDotMTY4OTk=</data>
 				<key>boot-args</key>
-				<string>darkwake=8 igfxfw=2 agdpmod=pikera shikigva=80</string>
+				<string>-v darkwake=8 igfxfw=2 agdpmod=pikera shikigva=80</string>
 			</dict>
 		</dict>
 		<key>Block</key>
