@@ -44,9 +44,9 @@
 
 ## 一些图片
 
-![系统信息](Images/macOS.png ''系统信息'')
-![Metal 跑分](Images/Metal.png ''Metal 跑分'')
-![OpenCL 跑分](Images/OpenCL.png ''OpenCL 跑分'')
+![系统信息](Images/macOS.png "系统信息")
+![Metal 跑分](Images/Metal.png "Metal 跑分")
+![OpenCL 跑分](Images/OpenCL.png "OpenCL 跑分")
 
 ## 更新
 
