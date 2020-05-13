@@ -9,7 +9,7 @@
 * ASRock Z390M-ITX/ac (BIOS Version: 4.30)
 * USCORSAIR DDR4 3000 16GB (8G×2)
 * Intel UHD Graphics 630
-* Asrock Radeon RX 5500 XT Challenger D 8G OC
+* Asrock Radeon RX 5500 XT Challenger D 8G OC (不建议使用华擎这个型号，风扇调速有问题，还是蓝宝石靠谱)
 * HP SSD EX920 512GB (macOS 10.15.4)
 * HP SSD S700 250GB (Windows 10)
 * BCM94360CS2
