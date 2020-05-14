@@ -115,6 +115,8 @@
 				<string>ATY,Python</string>
 				<key>@3,name</key>
 				<string>ATY,Python</string>
+				<key>device_type</key>
+				<string>ATY,PythonParent</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 			</dict>
@@ -208,7 +210,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>RadeonBoost.kext</string>
+				<string>RX5500XT.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -472,6 +474,8 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
