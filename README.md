@@ -26,15 +26,20 @@
 
 ## 工作正常
 
-* 变频节能正常
+* CPU 变频节能正常
 * 休眠唤醒正常
 * 核显加速正常
 * 5500 XT 显卡性能正常, Geekbench 5.1.1 跑分: Metal Score(41632), OpenCL Score(39026)
+* 5500 XT 风扇 PMW 正常
 * 有线网卡
 * 无线网卡 + 蓝牙
 * USB, 使用 USBPorts 定制, 如果你没有定制先使用 USBInjectAll 和打开
 * NVRAM（SSDT-PMC.aml）
 * iMessage/FaceTime/Hand-off (修改三码)
+
+## 唯一一点不够完美
+
+* 因为苹果驱动的问题，现在还拿不到显卡的监控数据
 
 ## 使用说明
 
