@@ -1,5 +1,8 @@
 # ASRock Z390m-ITX/ac Hackintosh
 
+## macOS 版本
+* 10.15.5
+
 ## Opencore 版本
 * 0.5.8
 
@@ -10,7 +13,7 @@
 * USCORSAIR DDR4 3000 16GB (8G×2)
 * Intel UHD Graphics 630
 * Asrock Radeon RX 5500 XT Challenger D 8G OC (推荐蓝宝石, 华擎的这个一言难尽)
-* HP SSD EX920 512GB (macOS 10.15.4)
+* HP SSD EX920 512GB (macOS 10.15.5)
 * HP SSD S700 250GB (Windows 10)
 * BCM94360CS2
 
@@ -54,6 +57,10 @@
 ![OpenCL 跑分](./Images/OpenCL.png "OpenCL 跑分")
 
 ## 更新
+
+* 2020-05-27
+  * 升级到 10.15.5 正常使用
+  * 修复 NVRAM 的一些值
 
 * 2020-05-13
   * 首次提交
