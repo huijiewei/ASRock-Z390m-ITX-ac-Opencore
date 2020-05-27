@@ -36,7 +36,7 @@
 * 5500 XT 风扇 PMW 正常
 * 有线网卡
 * 无线网卡 + 蓝牙
-* USB, 使用 USBPorts 定制, 如果你没有定制先使用 USBInjectAll 和打开
+* USB, 使用 USBPorts.kext 定制，自己定制可以删除 USBPorts，然后使用 USBInjectAll 和开启 Kernel->Quirks->XhciPortLimit
 * NVRAM（SSDT-PMC.aml）
 * iMessage/FaceTime/Hand-off (修改三码)
 
