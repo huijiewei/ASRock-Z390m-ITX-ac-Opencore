@@ -13,7 +13,7 @@
 * 需要进入 Windows 系统
 * 下载 GPU-Z：https://www.techpowerup.com/download/techpowerup-gpu-z/
 * 使用 GPU-Z 保存显卡 ROM 文件
-* 下载 MorePowerTool https://www.igorslab.de/wp-content/uploads/2019/08/MorePowerTool_Setup.exe
+* 下载 MorePowerTool https://www.igorslab.de/installer/MorePowerTool_Setup.exe
 * 使用 MorePowerTool 加载 GPU-Z 保存的 ROM 文件
 * 不推荐修改任何数据，除了 Fan 标签里面的 PWM Minimum(风扇最小转速百分比)
 * 点击 Write SPPT，写入注册表
