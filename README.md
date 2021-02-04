@@ -4,7 +4,7 @@
 * 11.2 (20D64)
 
 ## Opencore 版本
-* 0.6.5
+* 0.6.6
 
 ## 硬件配置
 
@@ -57,6 +57,9 @@
 ![OpenCL 跑分](./Images/OpenCL.png "OpenCL 跑分")
 
 ## 更新
+* 2021-02-04
+  * Opencore 升级到 0.6.6
+  
 * 2021-02-02
   * macOS 升级到 Big Sur 11.2 (20D64)
   
