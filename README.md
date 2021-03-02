@@ -1,10 +1,10 @@
 # ASRock Z390m-ITX/ac Hackintosh
 
 ## macOS 版本
-* 11.2 (20D64)
+* 11.2.2 (20D80)
 
 ## Opencore 版本
-* 0.6.6
+* 0.6.7
 
 ## 硬件配置
 
@@ -57,6 +57,9 @@
 ![OpenCL 跑分](./Images/OpenCL.png "OpenCL 跑分")
 
 ## 更新
+* 2021-03-02
+  * Opencore 升级到 0.6.7
+  
 * 2021-02-04
   * Opencore 升级到 0.6.6
   
