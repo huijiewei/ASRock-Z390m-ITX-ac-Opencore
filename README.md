@@ -1,7 +1,7 @@
 # ASRock Z390m-ITX/ac Hackintosh
 
 ## macOS 版本
-* 11.6 (20G165)
+* 12.0.1 (21A559)
 
 ## Opencore 版本
 * 0.7.4
