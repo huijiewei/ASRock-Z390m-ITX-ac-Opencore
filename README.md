@@ -36,7 +36,7 @@
 * 5500 XT 风扇 PMW 正常
 * 有线网卡
 * 无线网卡 + 蓝牙
-* USB, 使用 USBPorts.kext 定制，自己定制可以删除 USBPorts，然后使用 USBInjectAll 和开启 Kernel->Quirks->XhciPortLimit
+* USB, 使用 [USBToolBox](https://github.com/USBToolBox/tool) 定制 USBMap.kext, [详情](Resources/USB/README.md)
 * NVRAM（SSDT-PMC.aml）
 * iMessage/FaceTime/Hand-off (修改三码)
 
@@ -57,6 +57,10 @@
 ![OpenCL 跑分](./Images/OpenCL.png "OpenCL 跑分")
 
 ## 更新
+* 2021-10-27
+  * macOS 升级到 Monterey 12.0.1 (21A559)
+  * USB 重新定制
+  
 * 2021-10-05
   * Opencore 升级到 0.7.4
   
