@@ -296,7 +296,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string>USB Mapping</string>
 				<key>Enabled</key>
