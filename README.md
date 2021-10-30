@@ -42,9 +42,7 @@
     - PCI Express Native Control -> Enabled // 可选
     - PCIE ASPM Support -> Auto // 可选
     - PCH PCIE ASPM Support -> Auto // 可选
-    - DMI ASPM Support -> Enabled // 可选
-    - PCH DMI ASPM Support -> Enabled // 可选
-
+    
   - Storage Configuration
     - SATA Mode Selection -> AHCI
 
