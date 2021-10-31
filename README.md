@@ -36,7 +36,7 @@
     - Above 4G Decoding -> Enabled
     - C.A.M. (Clever Access Memory) -> Enable
 
-      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.cn.asp#BIOS) 到测试版 4.30F 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 最新的 0.7.5 版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了`
+      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.cn.asp#BIOS) 到测试版 4.30F 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 最新的 0.7.5 版本并设置 ResizeAppleGpuBars 为 8 或者 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了`
 
     - IGPU Multi-Monitor -> Enabled
     - PCI Express Native Control -> Enabled // 可选
