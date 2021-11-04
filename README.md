@@ -70,7 +70,7 @@
 - 5500 XT 显卡性能正常, Geekbench 5.1.1 跑分: Metal Score(41632), OpenCL Score(39026)
 - 5500 XT 风扇 PMW 正常
 - 5500 XT 温度检测 (使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor) 实现, 需要开启 RadeonSensor.kext 加载，并使用 [RadeonGadget](Resources/RadeonGadget.app) 读取)
-- 有线网卡 (我只启用了一块网卡，请禁用 SmallTreeIntel82576.kext 它在 Monterey 无法正常使用)
+- 有线网卡 (我只启用了一块网卡，SmallTreeIntel82576.kext 在 Monterey 无法正常使用)
 - 无线网卡 + 蓝牙
 - USB, 使用 [USBToolBox](https://github.com/USBToolBox/tool) 定制 USBMap.kext, [详情](Resources/USB/README.md)
 - NVRAM（SSDT-PMC.aml）
