@@ -13,7 +13,7 @@
 
 ## Opencore 版本
 
-- 0.7.5
+- 0.7.6
 
 ## 硬件配置
 
@@ -43,7 +43,7 @@
     - Above 4G Decoding -> Enabled
     - C.A.M. (Clever Access Memory) -> Enable
 
-      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.cn.asp#BIOS) 到测试版 4.30F 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 最新的 0.7.5 版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了`
+      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.asp#BIOS) 到测试版 4.30F(4.30G 不行) 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 0.7.5 以上版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了`
 
     - IGPU Multi-Monitor -> Enabled
     - PCI Express Native Control -> Enabled // 可选
@@ -76,7 +76,7 @@
 - 核显加速正常
 - 5500 XT 显卡性能正常, Geekbench 5.1.1 跑分: Metal Score(41632), OpenCL Score(39026)
 - 5500 XT 风扇 PMW 正常
-- 5500 XT 温度检测 (使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor) 实现, 需要开启 RadeonSensor.kext 加载，并使用 [RadeonGadget](Resources/RadeonGadget.app) 读取, 或者开启 SMCRadeonGPU.kext 使用其他工具也能读取)
+- 5500 XT 温度检测 (使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor) 实现)
 - 有线网卡 (我只启用了一块网卡，SmallTreeIntel82576.kext 在 Monterey 无法正常使用)
 - 无线网卡 + 蓝牙
 - USB, 使用 [USBToolBox](https://github.com/USBToolBox/tool) 定制 USBMap.kext, [详情](Resources/USB/README.md)
