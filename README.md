@@ -6,7 +6,6 @@
 [![Dell](https://img.shields.io/badge/Dell-P2415Q-007DB8?style=flat&logo=dell&logoColor=white)](https://www.dell.com)
 [![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white&color=2e118a)](https://www.apple.com/macos)
 
-
 ## macOS 版本
 
 - 12.1 (21C52)
@@ -29,41 +28,44 @@
 ## BIOS 设置
 
 - CPU Configuration
+
   - Intel SpeedStep Technology -> Enabled
   - Intel Turbo Boost Technology -> Enabled
   - Intel Speed Shift Technology -> Enabled
 
 - Advanced
+
   - CPU Configuration
+
     - CFG Lock -> Disabled
     - Software Guard Extensions (SGX) -> Disabled
 
   - Chipset Configuration
+
     - Primary Graphics Adapter -> PCI Express
     - Above 4G Decoding -> Enabled
     - C.A.M. (Clever Access Memory) -> Enable
 
-      `注：
-      [升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.asp#BIOS) 到测试版 4.30F(4.30G 不行) 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 0.7.5 以上版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了；
-      
-      如果不使用测试版 BIOS，请关闭 Above 4G Decoding，并设置 OC 的 ResizeAppleGpuBars 为 -1
-      `
+      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.asp#BIOS) 到测试版 4.30F(4.30G 不行) 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 0.7.5 以上版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了；如果不使用测试版 BIOS，请关闭 Above 4G Decoding，并设置 OC 的 ResizeAppleGpuBars 为 -1`
 
     - IGPU Multi-Monitor -> Enabled
     - PCI Express Native Control -> Enabled // 可选
     - PCIE ASPM Support -> Auto // 可选
     - PCH PCIE ASPM Support -> Auto // 可选
-    
+
   - Storage Configuration
+
     - SATA Mode Selection -> AHCI
 
   - USB Configuration
+
     - XHCI Hand-off -> Enabled
 
   - Trusted Computing
     - Security Device Support -> Enable
 
 - Security
+
   - Secure Boot -> Disabled
   - Intel platform trust technology -> Enable
 
