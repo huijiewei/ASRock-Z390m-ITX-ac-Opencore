@@ -8,11 +8,11 @@
 
 ## macOS 版本
 
-- 12.6 (21G115)
+- 13.0 (22A380)
 
 ## Opencore 版本
 
-- 0.8.4
+- 0.8.5
 
 ## 硬件配置
 
@@ -82,16 +82,12 @@
 - 核显加速正常
 - 5500 XT 显卡性能正常, Geekbench 5.1.1 跑分: Metal Score(41632), OpenCL Score(39026)
 - 5500 XT 风扇 PMW 正常
-- 5500 XT 温度检测 (使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor) 实现)
+- 5500 XT 温度检测 (Ventura 已支持)
 - 有线网卡 (我只启用了一块网卡，SmallTreeIntel82576.kext 在 Monterey 无法正常使用)
 - 无线网卡 + 蓝牙
 - USB, 使用 [USBToolBox](https://github.com/USBToolBox/tool) 定制 USBMap.kext, [详情](Resources/USB/README.md)
 - NVRAM（SSDT-PMC.aml）
 - iMessage/FaceTime/Hand-off (修改三码)
-
-## 唯一一点不够完美
-
-- 因为苹果驱动的问题，现在还拿不到显卡的监控数据
 
 ## 使用说明
 
