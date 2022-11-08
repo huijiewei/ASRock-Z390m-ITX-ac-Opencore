@@ -1,4 +1,7 @@
 ## 更新
+- 2022-11-08
+  - Opencore 升级到 0.8.6 正式版
+  
 - 2022-10-25
   - Opencore 升级到 0.8.5 正式版
   - 关闭 DisableIoMapper 设置，开启 VT-D
