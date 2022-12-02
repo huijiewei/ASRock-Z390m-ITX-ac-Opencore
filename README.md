@@ -8,7 +8,7 @@
 
 ## macOS 版本
 
-- 13.0 (22A380)
+- 13.0.1 (22A400)
 
 ## Opencore 版本
 
@@ -21,7 +21,7 @@
 - USCORSAIR DDR4 3000 16GB (8G×2)
 - Intel UHD Graphics 630
 - Asrock Radeon RX 5500 XT Challenger D 8G OC
-- HP SSD EX920 512GB `(macOS Monterey)`
+- HP SSD EX920 512GB `(macOS Ventura)`
 - HP SSD S700 250GB `(Windows 11)`
 - BCM94360CS2
 
@@ -46,7 +46,7 @@
     - Above 4G Decoding -> Enabled
     - C.A.M. (Clever Access Memory) -> Enable
 
-      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.asp#BIOS) 到测试版 4.30F(4.30G 不行) 后可以开启 Above 4G Decoding 和 C.A.M，并使用 Opencore 0.7.5 以上版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了；如果不使用测试版 BIOS，请关闭 Above 4G Decoding，并设置 OC 的 ResizeAppleGpuBars 为 -1`
+      `注：[升级 BIOS](https://www.asrock.com/mb/Intel/Z390M-ITXac/index.asp#BIOS) 到测试版 4.30F(4.30G 不行) 后可以开启 Above 4G Decoding 和 C.A.M，然后使用 Opencore 0.7.5 以上版本并设置 ResizeAppleGpuBars 为 0，ResizeGpuBars 为 -1 就可以享受 Windows 下 AMD Smart Access Memory 技术带来的提升了；如果不使用测试版 BIOS，请关闭 Above 4G Decoding，并设置 OC 的 ResizeAppleGpuBars 为 -1`
 
     - IGPU Multi-Monitor -> Enabled
     - PCI Express Native Control -> Enabled // 可选
@@ -83,7 +83,7 @@
 - 5500 XT 显卡性能正常, Geekbench 5.1.1 跑分: Metal Score(41632), OpenCL Score(39026)
 - 5500 XT 风扇 PMW 正常
 - 5500 XT 温度检测 (Ventura 已支持)
-- 有线网卡 (我只启用了一块网卡，SmallTreeIntel82576.kext 在 Monterey 无法正常使用)
+- 有线网卡
 - 无线网卡 + 蓝牙
 - USB, 使用 [USBToolBox](https://github.com/USBToolBox/tool) 定制 USBMap.kext, [详情](Resources/USB/README.md)
 - NVRAM（SSDT-PMC.aml）
@@ -92,7 +92,6 @@
 ## 使用说明
 
 - 先修改三码后再使用
-- 如果你的 CPU 和我不一样，请到 Windows 下使用 [SSDTTime](https://github.com/corpnewt/SSDTTime) 生成自己的 SSDT-PLUG.aml
 - 如果你的独立显卡和我不一样，请注意 [自定义显卡优化参数](Resources/5500XT/README.md)
 
 ## 一些图片
