@@ -6,13 +6,17 @@
 [![Dell](https://img.shields.io/badge/Dell-P2415Q-007DB8?style=flat&logo=dell&logoColor=white)](https://www.dell.com)
 [![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white&color=2e118a)](https://www.apple.com/macos)
 
+## 更新说明
+
+3月8日购入了 14寸 MacBook Pro M2 Pro，黑苹果的更新会放缓，不再追随 Opencore 的更新
+
 ## macOS 版本
 
 - 13.2.1 (22D68)
 
 ## Opencore 版本
 
-- 0.8.9
+- 0.9.1
 
 ## 硬件配置
 
