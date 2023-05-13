@@ -367,6 +367,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -769,6 +771,8 @@
 			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
+			<key>InitialMode</key>
+			<string>Auto</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
